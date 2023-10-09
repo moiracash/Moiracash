@@ -1,0 +1,61 @@
+@media (min-width: 1800px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next .car_chico_hor {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev .car_chico_hor{
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start .car_chico_hor{ 
+  transform: translateX(0);
+}
+
+body{
+	background: url("../Programacion/elsascreen.jpeg")
+} 
+
+.film{
+    width: 20%;
+    padding-left: 20px;
+}
+
+.tipo_car2{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.titulos {
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: left;
+	padding-left: 30px;
+	color: aliceblue
+}
+.titulo2 {
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";;
+	text-align: left;
+	padding-left: 30px;
+	color: aliceblue
+	
+}
+
+.header {
+	position: fixed;
+	width: 100%; 
+	transition: 0.7s; 
+}
+.header.abajo {
+	background: #FFFFFF;
+	padding: 15px 20px
+}
+
+
